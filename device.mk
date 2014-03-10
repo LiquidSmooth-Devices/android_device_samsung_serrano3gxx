@@ -19,6 +19,9 @@ $(call inherit-product-if-exists, vendor/samsung/serrano3gxx/serrano3gxx-vendor.
 # Inherit from serrano-common
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 
+# OTA ID
+otaupdater.otaid=serrano3gxx
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
