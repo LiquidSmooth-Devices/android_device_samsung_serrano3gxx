@@ -18,10 +18,10 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "cm",
-    "repository": "android_device_samsung_serrano-common",
+    "remote": "gh",
+    "repository": "sileshn/android_device_samsung_serrano-common",
     "target_path": "device/samsung/serrano-common",
-    "revision": "cm-11.0"
+    "revision": "liquid"
   },
   {
     "remote": "gh",
@@ -42,8 +42,8 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "tm",
-    "repository": "proprietary_vendor_samsung",
+    "remote": "gh",
+    "repository": "sileshn/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "revision": "cm-11.0"
     }
